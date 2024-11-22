@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/input_field_background"
+    android:orientation="vertical">
+
+    <!-- Donor Name Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:id="@+id/donorName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:text="Donor Name"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icons8_customer_50"
+            android:contentDescription="Name Icon"/>
+    </LinearLayout>
+
+    <!-- Donor City Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:id="@+id/donorCity"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:text="City"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/location"
+            android:contentDescription="City Icon"/>
+    </LinearLayout>
+
+    <!-- Donor Phone Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:id="@+id/donorPhone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:text="Phone"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icons8_call_50"
+            android:contentDescription="Phone Icon"/>
+    </LinearLayout>
+
+    <!-- Donor Email Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:id="@+id/donorEmail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:text="Email"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icons8_open_mail_32__1_"
+            android:contentDescription="Email Icon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="0dp">
+        <TextView
+            android:id="@+id/donorblood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gray"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:text="blood"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icons8_drop_of_blood_50"
+            android:contentDescription="Email Icon"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

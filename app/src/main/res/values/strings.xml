@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Life_Blood</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close" />
+    <string name="navigation_drawer_open" />
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
